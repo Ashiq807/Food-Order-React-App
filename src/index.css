@@ -14,6 +14,24 @@ body {
   min-height: 100vh;
 }
 
+.center {
+  text-align: center;
+}
+
+.error {
+  display: table;
+  background-color: lightpink;
+  margin: 0px auto;
+  padding: 1rem 3rem;
+  color: black;
+  line-height: 1.4;
+  border-radius: 0.5rem;
+}
+
+.error > * {
+  margin: 0;
+}
+
 #main-header {
   display: flex;
   justify-content: space-between;
